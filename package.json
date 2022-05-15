@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx hardhat test"
+    "testall": "npx hardhat test",
+    "test": "npx hardhat test --grep 'Lottery'"
   },
   "keywords": [],
   "author": "",

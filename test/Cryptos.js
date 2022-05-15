@@ -16,7 +16,7 @@ describe("Cryptos contract", function () {
     hardhatCryptos = await Cryptos.deploy();
   });
 
-  describe("Deployment", function () {
+  describe("Cryptos Deployment======", function () {
     it("Should set the right owner", async function () {
       expect(await hardhatCryptos.founder()).to.equal(owner.address);
     });
